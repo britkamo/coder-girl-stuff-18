@@ -1,0 +1,65 @@
+body {
+  background-color: #F1F2EB;
+  color: #0892A5;
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+}
+
+.header {
+  padding: 15px;
+}
+
+.content {
+  background-color: #0892A5;
+  color: #ffffff;
+  padding: 15px;
+}
+.contentBlock {
+    clear:both;
+}
+
+div{
+  display: block;
+}
+h1 {
+  font-family: Sacramento, cursive;
+}
+
+p {
+  margin: 0 15px;
+}
+
+#navbar li {
+  list-style: none;
+  float: left;
+  padding: 20px;
+}
+
+#navbar li:first-of-type {
+  border-right: 2px solid #0892a5;
+}
+
+.projectBox{
+  border: 1px dotted #fff;
+  padding: 10px;
+  margin: 20px;
+  width: 200px;
+  display: inline-block;
+}
+
+.skillBox{
+  background-color: #ffffff;
+  color: #0892a5;
+  border: 1px solid #ffffff;
+  width: 200px;
+  float: left;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+.thumbnail {
+  width: 200px;
+  padding: 20px;
+  float: left;
+}

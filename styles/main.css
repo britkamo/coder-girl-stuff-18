@@ -1,23 +1,41 @@
 body {
-  background-color: #F1F2EB;
+  background-color: #F7D08A;
   color: #0892A5;
   margin: 0;
   padding: 0;
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 
 .header {
-  padding: 15px;
+  padding: 20px 100px;
 }
 
 .content {
   background-color: #0892A5;
   color: #ffffff;
-  padding: 15px;
 }
 
 .contentBlock {
     clear:both;
+    padding: 60px 100px;
+}
+
+
+/*Content Block background colors*/
+.contentBlock:nth-child(2){
+  background-color: #1E9BAD;
+}
+
+.contentBlock:nth-child(3){
+  background-color: #34A5B5;
+}
+
+.contentBlock:nth-child(4){
+  background-color: #4BAFBD;
+}
+
+.contentBlock:nth-child(5){
+  background-color: #61B9C5;
 }
 
 div {
@@ -32,10 +50,16 @@ p {
   margin: 0 15px;
 }
 
+/* style the navigation bar */
+#navbar {
+  display: inline-block;
+  margin: 0;
+  padding-left: 10px;
+}
 #navbar li {
   list-style: none;
-  float: left;
-  padding: 20px;
+  display: inline-block;
+  padding: 5px 50px;
 }
 
 #navbar li:first-of-type {
@@ -50,19 +74,28 @@ p {
   display: inline-block;
 }
 
+.questions{
+  opacity: .3;
+}
+
 .skillBox{
   background-color: #ffffff;
   color: #0892a5;
   border: 1px solid #ffffff;
   width: 200px;
-  float: left;
+  display: inline-block;
   text-align: center;
   padding: 10px;
   margin: 20px;
 }
 
+
+.summaryBlock{
+  display:inline-block;
+  width: 400px;
+}
 .thumbnail {
   width: 200px;
-  padding: 20px;
+  padding: 20px 100px 20px 0px;
   float: left;
 }
